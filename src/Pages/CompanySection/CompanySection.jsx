@@ -20,7 +20,7 @@ const CompanySection = () => {
       axiosApiCall("assets/get_company_list", "post", formData).then(res => {
         setCompanyList(res.data.data)
       }).catch(err => {
-        console.log(err, "err")
+        console.error(err, "err")
       });
     }
   }

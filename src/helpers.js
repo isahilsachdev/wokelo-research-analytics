@@ -11,10 +11,9 @@ function axiosApiCall(enpoint,method,data){
   const URL = `${baseURL}${enpoint}/`
 
   if (token) {
-    console.log(token, "token")
     axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
   }
-  console.log(`Api call success on url ${URL} with token ${token}.`);
+  console.log(`Api call success on url ${URL}.`);
   return axiosInstance[method.toLowerCase()](URL, data);
 }
 
