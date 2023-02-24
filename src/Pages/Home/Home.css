@@ -1,0 +1,39 @@
+.landing-page-container {
+  width: 50%;
+  margin: 10% auto 0px;
+}
+
+.landing-page-heading div{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px 0px -40px;
+}
+
+.landing-page-heading .landing-page-wokelo-text {
+  color: #583BE8;
+  margin: 0px !important;
+}
+
+.landing-page-subheading p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.get-started-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 34px;
+  text-align: center;
+  background: #583BE8;
+  border: 1px solid #FDFAFA;
+  border-radius: 8px;
+  color: #FDFAFA;
+  padding: 8px 30px;
+  margin: 30px;
+  cursor: pointer;
+}

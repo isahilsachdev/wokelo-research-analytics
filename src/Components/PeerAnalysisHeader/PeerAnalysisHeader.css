@@ -1,0 +1,42 @@
+
+.peer-analysis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.peer-analysis-header button {
+  background: #12004A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  padding: 8px 30px;
+  cursor: pointer;
+}
+
+.peer-analysis-header p {
+  color: #5C5F62;
+  margin: -16px 0px 16px;
+}
+
+.next-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.next-btn img{
+  margin: 3px 0px 0px;
+}
+
+.btn-disabled {
+  background: rgba(18, 0, 74, 0.12) !important;
+  color: #12004A !important;
+  border: none;
+}
