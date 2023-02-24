@@ -6,7 +6,7 @@ import nextIconWhite from "../../Assets/Images/next-icon-white.png"
 
 const PeerAnalysisHeader = ({ page }) => {
   const navigate = useNavigate()
-  const companyList = JSON.parse(localStorage.getItem('company-list'))
+  const companyList = JSON.parse(localStorage.getItem('company-list')) || []
 
   return (
     <>
